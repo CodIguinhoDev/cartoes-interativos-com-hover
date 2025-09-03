@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    width: 100%;
+    text-align: center; 
+    padding: 20px 0;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img{
+    height: 38vh;
+    width: 28vw;
+    border-radius: 3px;
+    margin: 0vh 5vh;
+    box-shadow: 4px 5px 15px black;
+    transition: transform .5s;
+}
+
+.inbox {
+    height: 20vh;
+    width: 28vw;
+    box-shadow: 4px 5px 15px black;
+    margin: 5vh;
+    position: absolute;
+    top: 50vh;  
+    z-index: -1;
+    transition: transform .5s;
+}
+
+img:hover{
+    transform: translateY(-50px);
+}
+
+.card h2 {
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.card p {
+    text-align: center;
+    margin-top: 1vh;
+    max-width: 90%;
+    margin: 0 auto;
+} 
+
+.card:hover .inbox{
+    transform: translateY(58px);
+}
