@@ -3,7 +3,8 @@ Paisagens do Brasil
 Projeto desenvolvido em HTML e CSS, com o objetivo de praticar conceitos de layout, e estilização.  
 A página apresenta cartões com imagens e descrições de pontos turísticos brasileiros, além de um título fixo no topo.  
 
-Funcionalidades
+Funcionalidades:
+
 Exibição de cartões com imagens e descrições.    
 Título fixo no topo do site.  
 
