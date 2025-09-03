@@ -7,7 +7,8 @@ Funcionalidades
 Exibição de cartões com imagens e descrições.    
 Título fixo no topo do site.  
 
-Tecnologias utilizadas
+Tecnologias utilizadas:
+
 HTML5  
 CSS3 
 
